@@ -1,8 +1,9 @@
 import { MongoClient, ObjectId } from "mongodb";
 
+export const client = new MongoClient("mongodb+srv://priyanshu:Saxena_3008@database.kb6tz0w.mongodb.net/DT?retryWrites=true&w=majority&appName=Database");
+
 const connectDB = async () => {
   try {
-    const client = new MongoClient(process.env.MONGO_URI);
     await client.connect();
     console.log("Connected to MongoDB");
     return;
