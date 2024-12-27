@@ -22,7 +22,7 @@ This is an Event Management API built with Node.js and Express, connected to a M
 
 4. Start the server:
    ```bash
-   npm start
+   npm run dev
    ```
 
    The server will start on port 5000.
